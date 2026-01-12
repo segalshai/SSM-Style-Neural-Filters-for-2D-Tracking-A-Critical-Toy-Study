@@ -1,7 +1,7 @@
 # SSM-Style-Neural-Filters-for-2D-Tracking-A-Critical-Toy-Study
 SSM-Style Neural Filters for 2D Tracking: A  Critical Toy Study
 https://github.com/segalshai/SSM-Style-Neural-Filters-for-2D-Tracking-A-Critical-Toy-Study/blob/main/main_EKF.py
-<a href="Fast_Survey_Mamba_SSMs_for_Target_Tracking_with_Toy_Study.pdf" target="_blank">Read summery here (PDF)</a>
+<a href="MAMBA_KF.pdf" target="_blank">Read summery here (PDF)</a>
 
 The interacting multiple model (IMM) filter is a standard baseline for maneuvering tracking: it formalizes maneuvering as switching dynamics and runs a bank of motion models. Its main limitations are strong dependence on the model bank (if the true maneuver is not represented, performance degrades sharply), sensitivity to transition/noise tuning (e.g., mode probabilities, 𝑄 / 𝑅 Q/R), and fragility under long measurement gaps where prediction error accumulates with limited opportunity for correction.
 
